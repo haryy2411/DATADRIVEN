@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="zipCode" value="600055"/>
+    <parameter name="txtUsername" value="Hareesh"/>
+    <parameter name="city" value="boston"/>
+    <parameter name="nameOnCard" value="Lucifer"/>
+    <parameter name="creditCardNumber" value="12345678910236547"/>
+    <parameter name="cardType" value="Visa"/>
+    <parameter name="creditCardMonth" value="10"/>
+    <parameter name="state" value="tamilNadu"/>
+    <parameter name="creditCardYear" value="2020"/>
+    <parameter name="txtaddress" value="New york Nagram"/>
+    <classes>
+      <class name="com.blazeflight.BlazeFlight">
+        <methods>
+          <include name="beforeclass1"/>
+          <include name="tc03" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.blazeflight.BlazeFlight -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

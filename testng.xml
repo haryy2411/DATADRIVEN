@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="txtUsername" value="Hareesh"/>
+  <parameter name="txtaddress" value="New york Nagram"/>
+  <parameter name="city" value="boston"/>
+  <parameter name="state" value="tamilNadu"/>
+  <parameter name="zipCode" value="600055"/>
+  <parameter name="cardType" value="Visa"/>
+  <parameter name="creditCardNumber" value="12345678910236547"/>
+  <parameter name="creditCardMonth" value="10"/>
+  <parameter name="creditCardYear" value="2020"/>
+  <parameter name="nameOnCard" value="Lucifer"/>
+    <classes>
+      <class name="com.blazeflight.BlazeFlight"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
